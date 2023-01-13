@@ -33,7 +33,7 @@ In order to access the admin panel on "/admin" you need to provide the admin ema
 
 To run this application, you have to set your own environmental variables. For security reasons, some variables have been hidden from view and used as environmental variables with the help of dotenv package. Below are the variables that you need to set in order to run the application:
 
-- MONGO_URI: this is the connection string of your MongoDB Atlas database.
+- MONGO_URL: this is the connection string of your MongoDB Atlas database.
 
 - SESSION_SECRET: a secret message for the session. You can use any string here.
 
