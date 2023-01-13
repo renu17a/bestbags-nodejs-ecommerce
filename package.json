@@ -5,7 +5,7 @@
   "description": "A virtual ecommerce website using Node js, Express js, and Mongoose.",
   "scripts": {
     "start": "npm run prestart && nodemon app.js",
-    "prestart": "node category-seed.js && node products-seed.js"
+    "prestart": "node seedDB/category-seed.js && node seedDb/products-seed.js"
   },
   "author": "Maryam Aljanabi",
   "license": "MIT",
